@@ -6,8 +6,9 @@ plugins {
 group 'to-do.list'
 version '1.0-SNAPSHOT'
 
-applicationName = "todo"
-mainClassName = 'App'
+application {
+    mainClassName = 'App'
+}
 
 sourceCompatibility = 1.8
 
